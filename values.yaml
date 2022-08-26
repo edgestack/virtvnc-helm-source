@@ -17,7 +17,7 @@
 # Declare variables to be passed into your templates.
 
 images:
-  pullPolicy: Always
+  pullPolicy: IfNotPresent
   tags:
     virtvnc: 'opensona/virt-vnc:latest'
 
