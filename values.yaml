@@ -19,7 +19,7 @@
 images:
   pullPolicy: IfNotPresent
   tags:
-    virtvnc: 'opensona/virt-vnc:latest'
+    virtvnc: 'registry.gitlab.com/sonaproject/virtvnc:latest'
 
 service:
   ## Service type
